@@ -1,0 +1,585 @@
+28/10/2011 11:03:05  [BEGIN] Processing Emails
+28/10/2011 11:03:08  [FATAL] INVALID_LOGIN: Invalid username, password, security token; or user locked out.
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at ExchangeUtil.SfPartner.SforceService.login(String username, String password) in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\Web References\SfPartner\Reference.cs:line 401
+   at ExchangeUtil.SfLogin.login() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\SfLogin.cs:line 21
+   at ExchangeUtil.EspressoRegexUtils.regex_init() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\EspressoRegexUtils.cs:line 24
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 34
+   at ExchangeUtil.ExchangeIntegration.run() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 18
+28/10/2011 11:03:08  [END] Finished Processing Emails
+28/10/2011 11:03:44  [BEGIN] Processing Emails
+28/10/2011 11:03:47  [FATAL] No service available for class 'ResilientUtils'
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at ExchangeUtil.ResilientUtils.ResilientUtilsService.getExprs() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\Web References\ResilientUtils\Reference.cs:line 144
+   at ExchangeUtil.SfUtils.getExprs(SfLogin loginInstance) in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\SfUtils.cs:line 24
+   at ExchangeUtil.EspressoRegexUtils.regex_init() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\EspressoRegexUtils.cs:line 27
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 34
+   at ExchangeUtil.ExchangeIntegration.run() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 18
+28/10/2011 11:03:47  [END] Finished Processing Emails
+28/10/2011 11:07:31  [BEGIN] Processing Emails
+28/10/2011 11:07:34  [FATAL] No service available for class 'ResilientUtils'
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at ExchangeUtil.ResilientUtils.ResilientUtilsService.getExprs() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\Web References\ResilientUtils\Reference.cs:line 144
+   at ExchangeUtil.SfUtils.getExprs(SfLogin loginInstance) in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\SfUtils.cs:line 24
+   at ExchangeUtil.EspressoRegexUtils.regex_init() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\EspressoRegexUtils.cs:line 27
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 34
+   at ExchangeUtil.ExchangeIntegration.run() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 18
+28/10/2011 11:07:34  [END] Finished Processing Emails
+28/10/2011 11:10:39  [BEGIN] Processing Emails
+28/10/2011 11:10:43  [FATAL] Resilient_Utils: no access allowed to this class.
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at ExchangeUtil.ResilientUtils.Resilient_UtilsService.getExprs() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\Web References\ResilientUtils\Reference.cs:line 144
+   at ExchangeUtil.SfUtils.getExprs(SfLogin loginInstance) in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\SfUtils.cs:line 24
+   at ExchangeUtil.EspressoRegexUtils.regex_init() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\EspressoRegexUtils.cs:line 27
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 34
+   at ExchangeUtil.ExchangeIntegration.run() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 18
+28/10/2011 11:10:43  [END] Finished Processing Emails
+28/10/2011 11:11:58  [BEGIN] Processing Emails
+28/10/2011 11:12:03  [INFO] Processing email james.tildesley@makepositive.com/Dummy Order
+28/10/2011 11:12:08  [INFO] There are 2 attachment(s)
+28/10/2011 11:12:13  [SUCCESS] 006L0000002EAtSIAW
+28/10/2011 11:12:14  [END] Finished Processing Emails
+28/10/2011 11:17:41  [BEGIN] Processing Emails
+28/10/2011 11:17:46  [INFO] Processing email james.tildesley@makepositive.com/Another Order
+28/10/2011 11:17:51  [INFO] There are 2 attachment(s)
+28/10/2011 11:17:53  [FATAL] INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY - insufficient access rights on cross-reference id
+INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY - insufficient access rights on cross-reference id
+
+   at ExchangeUtil.SfUtils.createAttachments(SfLogin loginInstance) in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\SfUtils.cs:line 192
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 68
+28/10/2011 11:17:54  [END] Finished Processing Emails
+28/10/2011 11:18:54  [BEGIN] Processing Emails
+28/10/2011 11:18:57  [INFO] Processing email james.tildesley@makepositive.com/Another Order
+28/10/2011 11:18:58  [INFO] There are 2 attachment(s)
+28/10/2011 11:19:04  [FATAL] INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY - insufficient access rights on cross-reference id
+INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY - insufficient access rights on cross-reference id
+
+   at ExchangeUtil.SfUtils.createAttachments(SfLogin loginInstance) in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\SfUtils.cs:line 192
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 68
+28/10/2011 11:19:05  [END] Finished Processing Emails
+28/10/2011 11:20:05  [BEGIN] Processing Emails
+28/10/2011 11:20:07  [INFO] Processing email james.tildesley@makepositive.com/Another Order
+28/10/2011 11:20:08  [INFO] There are 2 attachment(s)
+28/10/2011 11:20:17  [FATAL] INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY - insufficient access rights on cross-reference id
+INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY - insufficient access rights on cross-reference id
+
+   at ExchangeUtil.SfUtils.createAttachments(SfLogin loginInstance) in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\SfUtils.cs:line 192
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 68
+28/10/2011 11:20:17  [END] Finished Processing Emails
+28/10/2011 15:00:39  [BEGIN] Processing Emails
+28/10/2011 15:01:07  [BEGIN] Processing Emails
+28/10/2011 15:01:14  [INFO] Processing email james.tildesley@makepositive.com/ExchangeUtil
+28/10/2011 15:01:16  [INFO] There are 2 attachment(s)
+28/10/2011 15:01:17  [FATAL] INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY - insufficient access rights on cross-reference id
+INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY - insufficient access rights on cross-reference id
+
+   at ExchangeUtil.SfUtils.createAttachments(SfLogin loginInstance) in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\SfUtils.cs:line 192
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 68
+28/10/2011 15:01:17  [INFO] Processing email james.tildesley@makepositive.com/Another Order
+28/10/2011 15:01:18  [INFO] There are 2 attachment(s)
+28/10/2011 15:01:19  [FATAL] INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY - insufficient access rights on cross-reference id
+INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY - insufficient access rights on cross-reference id
+
+   at ExchangeUtil.SfUtils.createAttachments(SfLogin loginInstance) in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\SfUtils.cs:line 192
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 68
+28/10/2011 15:01:19  [END] Finished Processing Emails
+28/10/2011 15:05:01  [BEGIN] Processing Emails
+28/10/2011 15:05:07  [INFO] Processing email james.tildesley@makepositive.com/ExchangeUtil
+28/10/2011 15:05:12  [INFO] There are 2 attachment(s)
+28/10/2011 15:05:14  [FATAL] INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY - insufficient access rights on cross-reference id
+INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY - insufficient access rights on cross-reference id
+
+   at ExchangeUtil.SfUtils.createAttachments(SfLogin loginInstance) in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\SfUtils.cs:line 192
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 68
+28/10/2011 15:05:14  [INFO] Processing email james.tildesley@makepositive.com/Another Order
+28/10/2011 15:05:15  [INFO] There are 2 attachment(s)
+28/10/2011 15:05:16  [FATAL] INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY - insufficient access rights on cross-reference id
+INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY - insufficient access rights on cross-reference id
+
+   at ExchangeUtil.SfUtils.createAttachments(SfLogin loginInstance) in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\SfUtils.cs:line 192
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 68
+28/10/2011 15:05:16  [END] Finished Processing Emails
+12/02/2012 22:25:02  [BEGIN] Processing Emails
+12/02/2012 22:25:17  [FATAL] INVALID_SESSION_ID: Invalid Session ID found in SessionHeader: Illegal Session. Session not found, missing session key: 00DM0000000AHUs!ARQAQN7TNBjbxoBiTJJkDhQb23hgaZwqoT7FPdH8Fk4_dTfvVbwO7xpXBx1gVdTRZw8Mok2TYKPAwOnNih_3kUWWRS3KgufO
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at ExchangeUtil.ResilientUtils.Resilient_UtilsService.getExprs() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\Web References\ResilientUtils\Reference.cs:line 144
+   at ExchangeUtil.SfUtils.getExprs(SfLogin loginInstance) in C:\Users\James Tildesley\Documents\Visual Studio 2010\Projects\ExchangeUtil\ExchangeUtil\SfUtils.cs:line 24
+   at ExchangeUtil.EspressoRegexUtils.regex_init() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\EspressoRegexUtils.cs:line 27
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\Documents\Visual Studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 34
+   at ExchangeUtil.ExchangeIntegration.run() in C:\Users\James Tildesley\Documents\Visual Studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 18
+12/02/2012 22:25:17  [END] Finished Processing Emails
+12/02/2012 22:26:07  [BEGIN] Processing Emails
+12/02/2012 22:26:11  [FATAL] INVALID_SESSION_ID: Invalid Session ID found in SessionHeader: Illegal Session. Session not found, missing session key: 00DM0000000AHUs!ARQAQN7TNBjbxoBiTJJkDhQb23hgaZwqoT7FPdH8Fk4_dTfvVbwO7xpXBx1gVdTRZw8Mok2TYKPAwOnNih_3kUWWRS3KgufO
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at ExchangeUtil.ResilientUtils.Resilient_UtilsService.getExprs() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\Web References\ResilientUtils\Reference.cs:line 144
+   at ExchangeUtil.SfUtils.getExprs(SfLogin loginInstance) in C:\Users\James Tildesley\Documents\Visual Studio 2010\Projects\ExchangeUtil\ExchangeUtil\SfUtils.cs:line 24
+   at ExchangeUtil.EspressoRegexUtils.regex_init() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\EspressoRegexUtils.cs:line 27
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\Documents\Visual Studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 34
+   at ExchangeUtil.ExchangeIntegration.run() in C:\Users\James Tildesley\Documents\Visual Studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 18
+12/02/2012 22:26:11  [END] Finished Processing Emails
+12/02/2012 22:28:55  [BEGIN] Processing Emails
+12/02/2012 22:28:59  [FATAL] The request failed. The remote server returned an error: (404) Not Found.
+   at Microsoft.Exchange.WebServices.Data.ServiceRequestBase.ValidateAndEmitRequest(HttpWebRequest& request)
+   at Microsoft.Exchange.WebServices.Data.SimpleServiceRequestBase.InternalExecute()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.BindToFolder(FolderId folderId, PropertySet propertySet)
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.BindToFolder[TFolder](FolderId folderId, PropertySet propertySet)
+   at Microsoft.Exchange.WebServices.Data.Folder.Bind(ExchangeService service, FolderId id, PropertySet propertySet)
+   at Microsoft.Exchange.WebServices.Data.Folder.Bind(ExchangeService service, WellKnownFolderName name)
+   at ExchangeUtil.ExchangeUtils.getEmails() in C:\Users\James Tildesley\Documents\Visual Studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeUtils.cs:line 27
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\Documents\Visual Studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 39
+   at ExchangeUtil.ExchangeIntegration.run() in C:\Users\James Tildesley\Documents\Visual Studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 18
+12/02/2012 22:28:59  [END] Finished Processing Emails
+12/02/2012 22:29:29  [BEGIN] Processing Emails
+12/02/2012 22:29:49  [FATAL] The request failed. The remote server returned an error: (405) Method Not Allowed.
+   at Microsoft.Exchange.WebServices.Data.ServiceRequestBase.ValidateAndEmitRequest(HttpWebRequest& request)
+   at Microsoft.Exchange.WebServices.Data.SimpleServiceRequestBase.InternalExecute()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.BindToFolder(FolderId folderId, PropertySet propertySet)
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.BindToFolder[TFolder](FolderId folderId, PropertySet propertySet)
+   at Microsoft.Exchange.WebServices.Data.Folder.Bind(ExchangeService service, FolderId id, PropertySet propertySet)
+   at Microsoft.Exchange.WebServices.Data.Folder.Bind(ExchangeService service, WellKnownFolderName name)
+   at ExchangeUtil.ExchangeUtils.getEmails() in C:\Users\James Tildesley\Documents\Visual Studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeUtils.cs:line 27
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\Documents\Visual Studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 39
+   at ExchangeUtil.ExchangeIntegration.run() in C:\Users\James Tildesley\Documents\Visual Studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 18
+12/02/2012 22:29:49  [END] Finished Processing Emails
+12/02/2012 22:30:18  [BEGIN] Processing Emails
+12/02/2012 22:30:24  [INFO] Processing email james.tildesley@makepositive.com/FW: Test Order
+12/02/2012 22:30:29  [INFO] There are 2 attachment(s)
+12/02/2012 22:30:30  [SUCCESS] 006M0000003nD6BIAU
+12/02/2012 22:30:32  [END] Finished Processing Emails
+12/02/2012 22:31:32  [BEGIN] Processing Emails
+12/02/2012 22:31:35  [INFO] Processing email james.tildesley@makepositive.com/FW: Test Order
+12/02/2012 22:31:36  [INFO] There are 2 attachment(s)
+12/02/2012 22:31:37  [SUCCESS] 006M0000003nD6GIAU
+12/02/2012 22:31:37  [END] Finished Processing Emails
+12/02/2012 22:32:37  [BEGIN] Processing Emails
+12/02/2012 22:32:42  [INFO] Processing email james.tildesley@makepositive.com/FW: Test Order
+12/02/2012 22:32:45  [INFO] There are 2 attachment(s)
+12/02/2012 22:32:46  [SUCCESS] 006M0000003nD1MIAU
+12/02/2012 22:32:46  [END] Finished Processing Emails
+12/02/2012 22:33:20  [BEGIN] Processing Emails
+12/02/2012 22:33:30  [INFO] Processing email james.tildesley@makepositive.com/FW: Test Order
+12/02/2012 22:33:31  [INFO] There are 2 attachment(s)
+12/02/2012 22:33:33  [SUCCESS] 006M0000003nD6LIAU
+12/02/2012 22:33:33  [END] Finished Processing Emails
+12/02/2012 22:34:33  [BEGIN] Processing Emails
+12/02/2012 22:34:37  [INFO] Processing email james.tildesley@makepositive.com/FW: Test Order
+12/02/2012 22:34:38  [INFO] There are 2 attachment(s)
+12/02/2012 22:34:39  [SUCCESS] 006M0000003nD6QIAU
+12/02/2012 22:34:39  [END] Finished Processing Emails
+12/02/2012 22:35:43  [BEGIN] Processing Emails
+12/02/2012 22:35:48  [FATAL] The collection is empty.
+Parameter name: items
+   at Microsoft.Exchange.WebServices.Data.EwsUtilities.ValidateParamCollection(IEnumerable collection, String paramName)
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.LoadPropertiesForItems(IEnumerable`1 items, PropertySet propertySet)
+   at ExchangeUtil.ExchangeUtils.getEmails() in C:\Users\James Tildesley\Documents\Visual Studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeUtils.cs:line 33
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\Documents\Visual Studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 39
+   at ExchangeUtil.ExchangeIntegration.run() in C:\Users\James Tildesley\Documents\Visual Studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 18
+12/02/2012 22:35:48  [END] Finished Processing Emails
+12/02/2012 22:36:40  [BEGIN] Processing Emails
+12/02/2012 22:36:44  [FATAL] The collection is empty.
+Parameter name: items
+   at Microsoft.Exchange.WebServices.Data.EwsUtilities.ValidateParamCollection(IEnumerable collection, String paramName)
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.LoadPropertiesForItems(IEnumerable`1 items, PropertySet propertySet)
+   at ExchangeUtil.ExchangeUtils.getEmails() in C:\Users\James Tildesley\Documents\Visual Studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeUtils.cs:line 33
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\Documents\Visual Studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 39
+   at ExchangeUtil.ExchangeIntegration.run() in C:\Users\James Tildesley\Documents\Visual Studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 18
+12/02/2012 22:36:44  [END] Finished Processing Emails
+12/02/2012 22:39:18  [BEGIN] Processing Emails
+12/02/2012 22:39:24  [END] Finished Processing Emails
+02/04/2012 18:18:15  [BEGIN] Processing Emails
+02/04/2012 18:18:43  [END] Finished Processing Emails
+02/04/2012 18:19:25  [BEGIN] Processing Emails
+02/04/2012 18:19:31  [END] Finished Processing Emails
+02/04/2012 18:34:29  [BEGIN] Processing Emails
+02/04/2012 18:34:51  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 18:34:52  [INFO] There are 1 attachment(s)
+02/04/2012 18:34:53  [SUCCESS] 006M0000003ohyCIAQ
+02/04/2012 18:34:54  [END] Finished Processing Emails
+02/04/2012 18:56:25  [BEGIN] Processing Emails
+02/04/2012 18:56:30  [FATAL] String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at ExchangeUtil.ExchangeUtils.getEmails() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeUtils.cs:line 42
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 39
+   at ExchangeUtil.ExchangeIntegration.run() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 18
+02/04/2012 18:56:30  [END] Finished Processing Emails
+02/04/2012 18:57:05  [BEGIN] Processing Emails
+02/04/2012 18:57:09  [FATAL] String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at ExchangeUtil.ExchangeUtils.getEmails() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeUtils.cs:line 41
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 39
+   at ExchangeUtil.ExchangeIntegration.run() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 18
+02/04/2012 18:57:09  [END] Finished Processing Emails
+02/04/2012 18:57:32  [BEGIN] Processing Emails
+02/04/2012 18:57:55  [END] Finished Processing Emails
+02/04/2012 18:58:18  [BEGIN] Processing Emails
+02/04/2012 18:58:24  [END] Finished Processing Emails
+02/04/2012 18:59:08  [BEGIN] Processing Emails
+02/04/2012 18:59:18  [END] Finished Processing Emails
+02/04/2012 18:59:33  [BEGIN] Processing Emails
+02/04/2012 18:59:40  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 18:59:41  [INFO] There are 1 attachment(s)
+02/04/2012 18:59:41  [SUCCESS] 006M0000003ohyRIAQ
+02/04/2012 18:59:41  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 18:59:42  [INFO] There are 1 attachment(s)
+02/04/2012 18:59:43  [SUCCESS] 006M0000003ohyWIAQ
+02/04/2012 18:59:44  [END] Finished Processing Emails
+02/04/2012 19:07:44  [BEGIN] Processing Emails
+02/04/2012 19:07:51  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:07:52  [INFO] There are 1 attachment(s)
+02/04/2012 19:07:53  [SUCCESS] 006M0000003ohylIAA
+02/04/2012 19:07:53  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:07:54  [INFO] There are 1 attachment(s)
+02/04/2012 19:07:56  [SUCCESS] 006M0000003ohyqIAA
+02/04/2012 19:07:56  [END] Finished Processing Emails
+02/04/2012 19:08:44  [BEGIN] Processing Emails
+02/04/2012 19:09:08  [END] Finished Processing Emails
+02/04/2012 19:09:23  [BEGIN] Processing Emails
+02/04/2012 19:09:30  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:09:31  [INFO] There are 1 attachment(s)
+02/04/2012 19:09:32  [SUCCESS] 006M0000003ohyvIAA
+02/04/2012 19:09:32  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:09:33  [INFO] There are 1 attachment(s)
+02/04/2012 19:09:34  [SUCCESS] 006M0000003ohz0IAA
+02/04/2012 19:09:35  [END] Finished Processing Emails
+02/04/2012 19:11:07  [BEGIN] Processing Emails
+02/04/2012 19:11:14  [END] Finished Processing Emails
+02/04/2012 19:11:54  [BEGIN] Processing Emails
+02/04/2012 19:12:01  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:12:02  [INFO] There are 1 attachment(s)
+02/04/2012 19:12:03  [SUCCESS] 006M0000003ohz5IAA
+02/04/2012 19:12:03  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:12:04  [INFO] There are 1 attachment(s)
+02/04/2012 19:12:04  [SUCCESS] 006M0000003ohzAIAQ
+02/04/2012 19:12:05  [END] Finished Processing Emails
+02/04/2012 19:14:49  [BEGIN] Processing Emails
+02/04/2012 19:14:55  [END] Finished Processing Emails
+02/04/2012 19:15:16  [BEGIN] Processing Emails
+02/04/2012 19:15:23  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:15:24  [INFO] There are 1 attachment(s)
+02/04/2012 19:15:25  [SUCCESS] 006M0000003ohzFIAQ
+02/04/2012 19:15:25  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:15:25  [INFO] There are 1 attachment(s)
+02/04/2012 19:16:23  [BEGIN] Processing Emails
+02/04/2012 19:16:30  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:16:31  [INFO] There are 1 attachment(s)
+02/04/2012 19:16:31  [SUCCESS] 006M0000003ohzKIAQ
+02/04/2012 19:16:31  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:16:32  [INFO] There are 1 attachment(s)
+02/04/2012 19:16:34  [SUCCESS] 006M0000003ohzPIAQ
+02/04/2012 19:16:35  [END] Finished Processing Emails
+02/04/2012 19:18:02  [BEGIN] Processing Emails
+02/04/2012 19:18:09  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:18:10  [INFO] There are 1 attachment(s)
+02/04/2012 19:18:11  [SUCCESS] 006M0000003ohzUIAQ
+02/04/2012 19:18:11  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:18:12  [INFO] There are 1 attachment(s)
+02/04/2012 19:18:13  [SUCCESS] 006M0000003ohzZIAQ
+02/04/2012 19:18:13  [END] Finished Processing Emails
+02/04/2012 19:19:32  [BEGIN] Processing Emails
+02/04/2012 19:19:55  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:19:55  [INFO] There are 1 attachment(s)
+02/04/2012 19:19:56  [SUCCESS] 006M0000003ohzeIAA
+02/04/2012 19:19:56  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:19:57  [INFO] There are 1 attachment(s)
+02/04/2012 19:19:58  [SUCCESS] 006M0000003ohzjIAA
+02/04/2012 19:19:58  [END] Finished Processing Emails
+02/04/2012 19:21:33  [BEGIN] Processing Emails
+02/04/2012 19:21:40  [END] Finished Processing Emails
+02/04/2012 19:21:58  [BEGIN] Processing Emails
+02/04/2012 19:22:06  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:22:06  [INFO] There are 1 attachment(s)
+02/04/2012 19:22:08  [SUCCESS] 006M0000003ohyNIAQ
+02/04/2012 19:22:08  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:22:09  [INFO] There are 1 attachment(s)
+02/04/2012 19:22:09  [SUCCESS] 006M0000003ohyOIAQ
+02/04/2012 19:22:10  [END] Finished Processing Emails
+02/04/2012 19:22:44  [BEGIN] Processing Emails
+02/04/2012 19:22:51  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:22:53  [INFO] There are 1 attachment(s)
+02/04/2012 19:22:54  [SUCCESS] 006M0000003ohzpIAA
+02/04/2012 19:22:54  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:22:54  [INFO] There are 1 attachment(s)
+02/04/2012 19:22:55  [SUCCESS] 006M0000003ohz6IAA
+02/04/2012 19:22:55  [END] Finished Processing Emails
+02/04/2012 19:23:32  [BEGIN] Processing Emails
+02/04/2012 19:24:27  [BEGIN] Processing Emails
+02/04/2012 19:27:16  [BEGIN] Processing Emails
+02/04/2012 19:29:57  [BEGIN] Processing Emails
+02/04/2012 19:30:15  [BEGIN] Processing Emails
+02/04/2012 19:30:44  [FATAL] Collection was modified; enumeration operation may not execute.
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at ExchangeUtil.ExchangeUtils.getEmails() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeUtils.cs:line 65
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 39
+   at ExchangeUtil.ExchangeIntegration.run() in C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\ExchangeIntegration.cs:line 18
+02/04/2012 19:30:44  [END] Finished Processing Emails
+02/04/2012 19:42:36  [BEGIN] Processing Emails
+02/04/2012 19:42:45  [END] Finished Processing Emails
+02/04/2012 19:42:54  [BEGIN] Processing Emails
+02/04/2012 19:43:04  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:43:05  [INFO] There are 1 attachment(s)
+02/04/2012 19:43:05  [SUCCESS] 006M0000003ohzLIAQ
+02/04/2012 19:43:06  [END] Finished Processing Emails
+02/04/2012 19:44:54  [BEGIN] Processing Emails
+02/04/2012 19:45:00  [INFO] Processing email otto.buchinger@makepositive.com/Order - 080312_1
+02/04/2012 19:45:01  [INFO] There are 1 attachment(s)
+02/04/2012 19:45:02  [SUCCESS] 006M0000003oi03IAA
+02/04/2012 19:45:02  [END] Finished Processing Emails
+04/04/2012 14:39:39  [BEGIN] Processing Emails
+04/04/2012 14:43:29  [END] Finished Processing Emails
+04/04/2012 14:47:12  [BEGIN] Processing Emails
+04/04/2012 14:59:59  [BEGIN] Processing Emails
+04/04/2012 15:19:25  [BEGIN] Processing Emails
+04/04/2012 16:31:37  [BEGIN] Processing Emails
+04/04/2012 16:33:02  [BEGIN] Processing Emails
+04/04/2012 16:33:54  [BEGIN] Processing Emails
+04/04/2012 16:34:31  [BEGIN] Processing Emails
+04/04/2012 16:35:55  [BEGIN] Processing Emails
+04/04/2012 16:37:48  [END] Finished Processing Emails
+04/04/2012 16:43:16  [BEGIN] Processing Emails
+04/04/2012 16:44:45  [BEGIN] Processing Emails
+04/04/2012 16:46:27  [BEGIN] Processing Emails
+04/04/2012 16:48:13  [BEGIN] Processing Emails
+05/04/2012 10:28:20  [BEGIN] Processing Emails
+05/04/2012 10:53:31  [BEGIN] Processing Emails
+05/04/2012 11:07:40  [BEGIN] Processing Emails
+05/04/2012 11:09:20  [END] Finished Processing Emails
+05/04/2012 11:24:03  [BEGIN] Processing Emails
+05/04/2012 11:25:20  [END] Finished Processing Emails
+05/04/2012 11:26:20  [BEGIN] Processing Emails
+05/04/2012 11:26:22  [END] Finished Processing Emails
+05/04/2012 11:32:54  [BEGIN] Processing Emails
+05/04/2012 11:43:27  [BEGIN] Processing Emails
+05/04/2012 11:44:19  [BEGIN] Processing Emails
+05/04/2012 15:45:27  [BEGIN] Processing Emails
+05/04/2012 15:57:28  [BEGIN] Processing Emails
+05/04/2012 16:05:14  [BEGIN] Processing Emails
+05/04/2012 16:06:26  [BEGIN] Processing Emails
+05/04/2012 16:08:04  [BEGIN] Processing Emails
+05/04/2012 17:05:00  [BEGIN] Processing Emails
+03-10-2013 17:20:19  [BEGIN] Processing Emails
+03-10-2013 17:20:22  [FATAL] An error occurred creating the configuration section handler for applicationSettings/ExchangeUtil.Properties.Settings: Could not load file or assembly 'System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' or one of its dependencies. The system cannot find the file specified. (C:\exchange-util\ExchangeUtil\bin\Debug\ExchangeUtil.vshost.exe.Config line 5)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ClientSettingsStore.ReadSettings(String sectionName, Boolean isUserScoped)
+   at System.Configuration.LocalFileSettingsProvider.GetPropertyValues(SettingsContext context, SettingsPropertyCollection properties)
+   at System.Configuration.SettingsBase.GetPropertiesFromProvider(SettingsProvider provider)
+   at System.Configuration.SettingsBase.GetPropertyValueByName(String propertyName)
+   at System.Configuration.SettingsBase.get_Item(String propertyName)
+   at System.Configuration.ApplicationSettingsBase.GetPropertyValue(String propertyName)
+   at System.Configuration.ApplicationSettingsBase.get_Item(String propertyName)
+   at ExchangeUtil.Properties.Settings.get_ExchangeUtil_SfPartner_SforceService() in C:\exchange-util\ExchangeUtil\Properties\Settings.Designer.cs:line 51
+   at ExchangeUtil.SfPartner.SforceService..ctor() in C:\exchange-util\ExchangeUtil\Web References\SfPartner\Reference.cs:line 130
+   at ExchangeUtil.SfLogin..ctor() in C:\exchange-util\ExchangeUtil\SfLogin.cs:line 15
+   at ExchangeUtil.EspressoRegexUtils.regex_init() in C:\exchange-util\ExchangeUtil\EspressoRegexUtils.cs:line 23
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 34
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+03-10-2013 17:20:22  [END] Finished Processing Emails
+03-10-2013 17:34:48  [BEGIN] Processing Emails
+03-10-2013 17:34:49  [FATAL] An error occurred creating the configuration section handler for applicationSettings/ExchangeUtil.Properties.Settings: Could not load file or assembly 'System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' or one of its dependencies. The system cannot find the file specified. (C:\exchange-util\ExchangeUtil\bin\Debug\ExchangeUtil.vshost.exe.Config line 5)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ClientSettingsStore.ReadSettings(String sectionName, Boolean isUserScoped)
+   at System.Configuration.LocalFileSettingsProvider.GetPropertyValues(SettingsContext context, SettingsPropertyCollection properties)
+   at System.Configuration.SettingsBase.GetPropertiesFromProvider(SettingsProvider provider)
+   at System.Configuration.SettingsBase.GetPropertyValueByName(String propertyName)
+   at System.Configuration.SettingsBase.get_Item(String propertyName)
+   at System.Configuration.ApplicationSettingsBase.GetPropertyValue(String propertyName)
+   at System.Configuration.ApplicationSettingsBase.get_Item(String propertyName)
+   at ExchangeUtil.Properties.Settings.get_ExchangeUtil_SfPartner_SforceService() in C:\exchange-util\ExchangeUtil\Properties\Settings.Designer.cs:line 51
+   at ExchangeUtil.SfPartner.SforceService..ctor() in C:\exchange-util\ExchangeUtil\Web References\SfPartner\Reference.cs:line 130
+   at ExchangeUtil.SfLogin..ctor() in C:\exchange-util\ExchangeUtil\SfLogin.cs:line 15
+   at ExchangeUtil.EspressoRegexUtils.regex_init() in C:\exchange-util\ExchangeUtil\EspressoRegexUtils.cs:line 23
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 34
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+03-10-2013 17:34:49  [END] Finished Processing Emails
+03-10-2013 17:44:30  [BEGIN] Processing Emails
+03-10-2013 17:44:31  [FATAL] An error occurred creating the configuration section handler for applicationSettings/ExchangeUtil.Properties.Settings: Could not load file or assembly 'System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' or one of its dependencies. The system cannot find the file specified. (C:\exchange-util\ExchangeUtil\bin\Debug\ExchangeUtil.vshost.exe.Config line 5)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ClientSettingsStore.ReadSettings(String sectionName, Boolean isUserScoped)
+   at System.Configuration.LocalFileSettingsProvider.GetPropertyValues(SettingsContext context, SettingsPropertyCollection properties)
+   at System.Configuration.SettingsBase.GetPropertiesFromProvider(SettingsProvider provider)
+   at System.Configuration.SettingsBase.GetPropertyValueByName(String propertyName)
+   at System.Configuration.SettingsBase.get_Item(String propertyName)
+   at System.Configuration.ApplicationSettingsBase.GetPropertyValue(String propertyName)
+   at System.Configuration.ApplicationSettingsBase.get_Item(String propertyName)
+   at ExchangeUtil.Properties.Settings.get_ExchangeUtil_SfPartner_SforceService() in C:\exchange-util\ExchangeUtil\Properties\Settings.Designer.cs:line 51
+   at ExchangeUtil.SfPartner.SforceService..ctor() in C:\exchange-util\ExchangeUtil\Web References\SfPartner\Reference.cs:line 130
+   at ExchangeUtil.SfLogin..ctor() in C:\exchange-util\ExchangeUtil\SfLogin.cs:line 15
+   at ExchangeUtil.EspressoRegexUtils.regex_init() in C:\exchange-util\ExchangeUtil\EspressoRegexUtils.cs:line 23
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 34
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+03-10-2013 17:44:31  [END] Finished Processing Emails
+10/7/2013 1:17:00 PM  [BEGIN] Processing Emails
+10/7/2013 1:20:29 PM  [BEGIN] Processing Emails
+10/7/2013 1:23:02 PM  [FATAL] Index was outside the bounds of the array.
+   at ExchangeUtil.ExchangeUtils.getEmails() in C:\exchange-util\ExchangeUtil\ExchangeUtils.cs:line 39
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 39
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+10/7/2013 1:23:04 PM  [END] Finished Processing Emails
+10/7/2013 1:25:42 PM  [BEGIN] Processing Emails
+10/7/2013 1:27:18 PM  [BEGIN] Processing Emails
+10/7/2013 1:28:23 PM  [FATAL] Index was outside the bounds of the array.
+   at ExchangeUtil.ExchangeUtils.getEmails() in C:\exchange-util\ExchangeUtil\ExchangeUtils.cs:line 39
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 39
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+10/7/2013 1:28:23 PM  [END] Finished Processing Emails
+10/7/2013 1:29:39 PM  [BEGIN] Processing Emails
+10/7/2013 1:32:33 PM  [FATAL] Index was outside the bounds of the array.
+   at ExchangeUtil.ExchangeUtils.getEmails() in C:\exchange-util\ExchangeUtil\ExchangeUtils.cs:line 39
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 39
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+10/7/2013 1:32:34 PM  [END] Finished Processing Emails
+10/7/2013 1:34:25 PM  [BEGIN] Processing Emails
+10/7/2013 1:37:52 PM  [BEGIN] Processing Emails
+10/7/2013 1:38:26 PM  [END] Finished Processing Emails
+10/7/2013 1:42:23 PM  [BEGIN] Processing Emails
+10/7/2013 1:44:50 PM  [END] Finished Processing Emails
+10/7/2013 2:28:56 PM  [BEGIN] Processing Emails
+10/7/2013 2:29:41 PM  [FATAL] Exchange Server doesn't support the requested version.
+   at Microsoft.Exchange.WebServices.Data.ServiceRequestBase.ProcessWebException(WebException webException)
+   at Microsoft.Exchange.WebServices.Data.ServiceRequestBase.GetEwsHttpWebResponse(IEwsHttpWebRequest request)
+   at Microsoft.Exchange.WebServices.Data.ServiceRequestBase.ValidateAndEmitRequest(IEwsHttpWebRequest& request)
+   at Microsoft.Exchange.WebServices.Data.SimpleServiceRequestBase.InternalExecute()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.InternalFindFolders(IEnumerable`1 parentFolderIds, SearchFilter searchFilter, FolderView view, ServiceErrorHandling errorHandlingMode)
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.FindFolders(FolderId parentFolderId, SearchFilter searchFilter, FolderView view)
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.FindFolders(WellKnownFolderName parentFolderName, SearchFilter searchFilter, FolderView view)
+   at ExchangeUtil.ExchangeUtils.getEmails() in C:\exchange-util\ExchangeUtil\ExchangeUtils.cs:line 61
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 39
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+10/7/2013 2:29:41 PM  [END] Finished Processing Emails
+10/7/2013 2:30:33 PM  [BEGIN] Processing Emails
+10/7/2013 2:31:22 PM  [FATAL] Exchange Server doesn't support the requested version.
+   at Microsoft.Exchange.WebServices.Data.ServiceRequestBase.ProcessWebException(WebException webException)
+   at Microsoft.Exchange.WebServices.Data.ServiceRequestBase.GetEwsHttpWebResponse(IEwsHttpWebRequest request)
+   at Microsoft.Exchange.WebServices.Data.ServiceRequestBase.ValidateAndEmitRequest(IEwsHttpWebRequest& request)
+   at Microsoft.Exchange.WebServices.Data.SimpleServiceRequestBase.InternalExecute()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.InternalFindFolders(IEnumerable`1 parentFolderIds, SearchFilter searchFilter, FolderView view, ServiceErrorHandling errorHandlingMode)
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.FindFolders(FolderId parentFolderId, SearchFilter searchFilter, FolderView view)
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.FindFolders(WellKnownFolderName parentFolderName, SearchFilter searchFilter, FolderView view)
+   at ExchangeUtil.ExchangeUtils.getEmails() in C:\exchange-util\ExchangeUtil\ExchangeUtils.cs:line 61
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 39
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+10/7/2013 2:31:22 PM  [END] Finished Processing Emails
+10/7/2013 2:33:31 PM  [BEGIN] Processing Emails
+10/7/2013 2:33:38 PM  [FATAL] Exchange Server doesn't support the requested version.
+   at Microsoft.Exchange.WebServices.Data.ServiceRequestBase.ProcessWebException(WebException webException)
+   at Microsoft.Exchange.WebServices.Data.ServiceRequestBase.GetEwsHttpWebResponse(IEwsHttpWebRequest request)
+   at Microsoft.Exchange.WebServices.Data.ServiceRequestBase.ValidateAndEmitRequest(IEwsHttpWebRequest& request)
+   at Microsoft.Exchange.WebServices.Data.SimpleServiceRequestBase.InternalExecute()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.InternalFindFolders(IEnumerable`1 parentFolderIds, SearchFilter searchFilter, FolderView view, ServiceErrorHandling errorHandlingMode)
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.FindFolders(FolderId parentFolderId, SearchFilter searchFilter, FolderView view)
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.FindFolders(WellKnownFolderName parentFolderName, SearchFilter searchFilter, FolderView view)
+   at ExchangeUtil.ExchangeUtils.getEmails() in C:\exchange-util\ExchangeUtil\ExchangeUtils.cs:line 61
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 39
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+10/7/2013 2:33:38 PM  [END] Finished Processing Emails
+10/7/2013 2:34:08 PM  [BEGIN] Processing Emails
+10/7/2013 2:34:43 PM  [FATAL] Exchange Server doesn't support the requested version.
+   at Microsoft.Exchange.WebServices.Data.ServiceRequestBase.ProcessWebException(WebException webException)
+   at Microsoft.Exchange.WebServices.Data.ServiceRequestBase.GetEwsHttpWebResponse(IEwsHttpWebRequest request)
+   at Microsoft.Exchange.WebServices.Data.ServiceRequestBase.ValidateAndEmitRequest(IEwsHttpWebRequest& request)
+   at Microsoft.Exchange.WebServices.Data.SimpleServiceRequestBase.InternalExecute()
+   at Microsoft.Exchange.WebServices.Data.MultiResponseServiceRequest`1.Execute()
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.InternalFindFolders(IEnumerable`1 parentFolderIds, SearchFilter searchFilter, FolderView view, ServiceErrorHandling errorHandlingMode)
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.FindFolders(FolderId parentFolderId, SearchFilter searchFilter, FolderView view)
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.FindFolders(WellKnownFolderName parentFolderName, SearchFilter searchFilter, FolderView view)
+   at ExchangeUtil.ExchangeUtils.getEmails() in C:\exchange-util\ExchangeUtil\ExchangeUtils.cs:line 61
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 39
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+10/7/2013 2:34:43 PM  [END] Finished Processing Emails
+10/7/2013 2:39:49 PM  [BEGIN] Processing Emails
+10/7/2013 2:50:39 PM  [BEGIN] Processing Emails
+10/7/2013 3:00:39 PM  [BEGIN] Processing Emails
+10/7/2013 3:04:03 PM  [BEGIN] Processing Emails
+10/7/2013 3:05:40 PM  [BEGIN] Processing Emails
+10/7/2013 3:06:09 PM  [END] Finished Processing Emails
+10/7/2013 3:07:09 PM  [BEGIN] Processing Emails
+10/7/2013 3:07:23 PM  [END] Finished Processing Emails
+10/7/2013 3:08:23 PM  [BEGIN] Processing Emails
+10/7/2013 3:09:19 PM  [END] Finished Processing Emails
+10/7/2013 3:14:58 PM  [BEGIN] Processing Emails
+10/7/2013 3:16:03 PM  [END] Finished Processing Emails
+10/7/2013 3:16:10 PM  [BEGIN] Processing Emails
+10/7/2013 3:17:06 PM  [END] Finished Processing Emails
+10/7/2013 3:18:38 PM  [BEGIN] Processing Emails
+10/7/2013 3:19:52 PM  [END] Finished Processing Emails
+10/7/2013 3:24:01 PM  [BEGIN] Processing Emails
+10/7/2013 3:25:30 PM  [BEGIN] Processing Emails
+10/7/2013 3:26:21 PM  [BEGIN] Processing Emails
+10/7/2013 3:26:53 PM  [BEGIN] Processing Emails
+10/7/2013 3:27:39 PM  [BEGIN] Processing Emails
+10/7/2013 3:29:03 PM  [BEGIN] Processing Emails
+10/7/2013 3:31:05 PM  [END] Finished Processing Emails
+10/7/2013 3:31:31 PM  [BEGIN] Processing Emails
+10/7/2013 3:41:45 PM  [BEGIN] Processing Emails
+10/7/2013 3:42:32 PM  [BEGIN] Processing Emails
+10/7/2013 4:22:31 PM  [BEGIN] Processing Emails
+10/7/2013 4:23:41 PM  [BEGIN] Processing Emails
+10/7/2013 4:24:07 PM  [END] Finished Processing Emails
+10/7/2013 4:24:43 PM  [BEGIN] Processing Emails
+10/7/2013 4:27:01 PM  [BEGIN] Processing Emails
+10/7/2013 4:27:23 PM  [END] Finished Processing Emails
+10/7/2013 4:27:45 PM  [BEGIN] Processing Emails
+10/7/2013 4:29:49 PM  [BEGIN] Processing Emails
+10/7/2013 4:31:03 PM  [END] Finished Processing Emails
+10/7/2013 4:31:14 PM  [BEGIN] Processing Emails
+10/7/2013 4:33:59 PM  [BEGIN] Processing Emails
+10/7/2013 4:35:15 PM  [INFO] Processing email D.Menniss@Resilientplc.com/Order number 1 testing
+10/7/2013 4:35:17 PM  [INFO] There are 1 attachment(s)
+10/7/2013 4:35:19 PM  [SUCCESS] 006D000000TpFn9IAF
+10/7/2013 4:35:20 PM  [END] Finished Processing Emails
+10/9/2013 3:24:49 PM  [BEGIN] Processing Emails
+10/9/2013 3:27:21 PM  [END] Finished Processing Emails
+10/9/2013 3:27:29 PM  [BEGIN] Processing Emails
+10/9/2013 3:29:01 PM  [END] Finished Processing Emails
+10/9/2013 3:35:43 PM  [BEGIN] Processing Emails
+10/9/2013 3:36:02 PM  [END] Finished Processing Emails
+10/9/2013 3:39:22 PM  [BEGIN] Processing Emails
+10/9/2013 3:40:38 PM  [END] Finished Processing Emails
+10/9/2013 3:51:29 PM  [BEGIN] Processing Emails
+10/9/2013 3:52:21 PM  [END] Finished Processing Emails
+10/9/2013 4:07:56 PM  [BEGIN] Processing Emails
+10/9/2013 4:08:13 PM  [INFO] Processing email tushar.mehrotra@makepositive.com/Test Order Numbr
+10/9/2013 4:08:14 PM  [INFO] There are 1 attachment(s)
+10/9/2013 4:08:16 PM  [SUCCESS] 006D000000TpRy5IAF
+10/9/2013 4:08:17 PM  [END] Finished Processing Emails
+10/10/2013 11:16:50 AM  [BEGIN] Processing Emails
+10/10/2013 11:18:20 AM  [END] Finished Processing Emails
+10/10/2013 11:22:05 AM  [BEGIN] Processing Emails
+10/10/2013 11:23:26 AM  [END] Finished Processing Emails
+10/10/2013 11:28:15 AM  [BEGIN] Processing Emails
+10/10/2013 11:29:12 AM  [END] Finished Processing Emails
+10/10/2013 11:31:11 AM  [BEGIN] Processing Emails
+10/10/2013 11:34:04 AM  [END] Finished Processing Emails
+10/10/2013 12:10:23 PM  [BEGIN] Processing Emails
+10/10/2013 12:12:15 PM  [END] Finished Processing Emails
+10/10/2013 12:17:07 PM  [BEGIN] Processing Emails
+10/10/2013 12:17:39 PM  [END] Finished Processing Emails
+10/10/2013 12:19:38 PM  [BEGIN] Processing Emails
+10/10/2013 12:19:59 PM  [INFO] Processing email tushar.mehrotra@makepositive.com/Test Order Numbr
+10/10/2013 12:20:01 PM  [INFO] There are 1 attachment(s)
+10/10/2013 12:20:03 PM  [SUCCESS] 006D000000TpWBiIAN
+10/10/2013 12:20:03 PM  [END] Finished Processing Emails
+10/10/2013 12:46:27 PM  [BEGIN] Processing Emails
+10/10/2013 12:49:33 PM  [END] Finished Processing Emails

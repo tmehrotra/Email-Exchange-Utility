@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ExchangeUtil.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="EX_UN" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">makepositive</Value>
+    </Setting>
+    <Setting Name="EX_PW" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">P0s1t1v3</Value>
+    </Setting>
+    <Setting Name="EX_DOM" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">resilientplc</Value>
+    </Setting>
+    <Setting Name="WAIT_MS" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">60000</Value>
+    </Setting>
+    <Setting Name="SF_UN" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">makepositive@resilientplc.com</Value>
+    </Setting>
+    <Setting Name="ExchangeUtil_ResilientUtils_ResilientUtilsService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://eu1-api.salesforce.com/services/Soap/class/Resilient_Utils</Value>
+    </Setting>
+    <Setting Name="ExchangeUtil_SfPartner_SforceService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://login.salesforce.com/services/Soap/u/20.0</Value>
+    </Setting>
+    <Setting Name="SF_PW" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PRODres4</Value>
+    </Setting>
+    <Setting Name="SF_TKN" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LgMQ0vgWxnnC99gjeHgD6IuAB</Value>
+    </Setting>
+    <Setting Name="EX_URI" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;https://webmail.resilientplc.com/ews/exchange.asmx|false|Makepositive;TEST_FOLDER&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

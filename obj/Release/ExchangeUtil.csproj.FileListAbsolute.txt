@@ -1,0 +1,18 @@
+C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\obj\Release\ResolveAssemblyReference.cache
+C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\bin\Release\ExchangeUtil.dll.config
+C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\bin\Release\ExchangeUtil.dll
+C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\bin\Release\ExchangeUtil.pdb
+C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\obj\Release\ExchangeUtil.dll
+C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\obj\Release\ExchangeUtil.pdb
+C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\bin\Release\ExchangeUtil.XmlSerializers.dll
+C:\Users\James Tildesley\documents\visual studio 2010\Projects\ExchangeUtil\ExchangeUtil\obj\Release\ExchangeUtil.XmlSerializers.dll
+C:\exchange-util\ExchangeUtil\bin\Release\ExchangeUtil.exe.config
+C:\exchange-util\ExchangeUtil\obj\Release\ExchangeUtil.pdb
+C:\exchange-util\ExchangeUtil\obj\Release\ExchangeUtil.XmlSerializers.dll
+C:\exchange-util\ExchangeUtil\obj\Release\ResolveAssemblyReference.cache
+C:\exchange-util\ExchangeUtil\bin\Release\ExchangeUtil.exe
+C:\exchange-util\ExchangeUtil\bin\Release\ExchangeUtil.XmlSerializers.dll
+C:\exchange-util\ExchangeUtil\bin\Release\ExchangeUtil.pdb
+C:\exchange-util\ExchangeUtil\bin\Release\Microsoft.Exchange.WebServices.dll
+C:\exchange-util\ExchangeUtil\bin\Release\Microsoft.Exchange.WebServices.xml
+C:\exchange-util\ExchangeUtil\obj\Release\ExchangeUtil.exe

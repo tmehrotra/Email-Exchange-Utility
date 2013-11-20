@@ -1,0 +1,126 @@
+10/7/2013 1:09:55 PM  [BEGIN] Processing Emails
+10/7/2013 1:09:59 PM  [FATAL] INVALID_LOGIN: Invalid username, password, security token; or user locked out.
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at ExchangeUtil.SfPartner.SforceService.login(String username, String password) in C:\exchange-util\ExchangeUtil\Web References\SfPartner\Reference.cs:line 401
+   at ExchangeUtil.SfLogin.login() in C:\exchange-util\ExchangeUtil\SfLogin.cs:line 21
+   at ExchangeUtil.EspressoRegexUtils.regex_init() in C:\exchange-util\ExchangeUtil\EspressoRegexUtils.cs:line 24
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 34
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+10/7/2013 1:09:59 PM  [END] Finished Processing Emails
+10/7/2013 1:10:59 PM  [BEGIN] Processing Emails
+10/7/2013 1:11:01 PM  [FATAL] INVALID_LOGIN: Invalid username, password, security token; or user locked out.
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at ExchangeUtil.SfPartner.SforceService.login(String username, String password) in C:\exchange-util\ExchangeUtil\Web References\SfPartner\Reference.cs:line 401
+   at ExchangeUtil.SfLogin.login() in C:\exchange-util\ExchangeUtil\SfLogin.cs:line 21
+   at ExchangeUtil.EspressoRegexUtils.regex_init() in C:\exchange-util\ExchangeUtil\EspressoRegexUtils.cs:line 24
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 34
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+10/7/2013 1:11:01 PM  [END] Finished Processing Emails
+10/7/2013 1:11:24 PM  [BEGIN] Processing Emails
+10/7/2013 1:11:29 PM  [FATAL] Index was outside the bounds of the array.
+   at ExchangeUtil.ExchangeUtils.getEmails() in C:\exchange-util\ExchangeUtil\ExchangeUtils.cs:line 22
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 39
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+10/7/2013 1:11:29 PM  [END] Finished Processing Emails
+10/7/2013 1:12:01 PM  [BEGIN] Processing Emails
+10/7/2013 1:12:01 PM  [FATAL] Could not load type 'ExchangeUtil.ResilientUtils.Resilient_UtilsService' from assembly 'ExchangeUtil, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializerContract.CanSerialize(Type type)
+   at System.Xml.Serialization.TempAssembly.LoadGeneratedAssembly(Type type, String defaultNamespace, XmlSerializerImplementation& contract)
+   at System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   at System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   at ExchangeUtil.SfPartner.SforceService..ctor() in C:\exchange-util\ExchangeUtil\Web References\SfPartner\Reference.cs:line 129
+   at ExchangeUtil.SfLogin..ctor() in C:\exchange-util\ExchangeUtil\SfLogin.cs:line 15
+   at ExchangeUtil.EspressoRegexUtils.regex_init() in C:\exchange-util\ExchangeUtil\EspressoRegexUtils.cs:line 23
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 34
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+10/7/2013 1:12:01 PM  [END] Finished Processing Emails
+10/7/2013 1:13:01 PM  [BEGIN] Processing Emails
+10/7/2013 1:13:02 PM  [FATAL] Could not load type 'ExchangeUtil.ResilientUtils.Resilient_UtilsService' from assembly 'ExchangeUtil, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializerContract.CanSerialize(Type type)
+   at System.Xml.Serialization.TempAssembly.LoadGeneratedAssembly(Type type, String defaultNamespace, XmlSerializerImplementation& contract)
+   at System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   at System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   at ExchangeUtil.SfPartner.SforceService..ctor() in C:\exchange-util\ExchangeUtil\Web References\SfPartner\Reference.cs:line 129
+   at ExchangeUtil.SfLogin..ctor() in C:\exchange-util\ExchangeUtil\SfLogin.cs:line 15
+   at ExchangeUtil.EspressoRegexUtils.regex_init() in C:\exchange-util\ExchangeUtil\EspressoRegexUtils.cs:line 23
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 34
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+10/7/2013 1:13:02 PM  [END] Finished Processing Emails
+10/7/2013 1:13:51 PM  [BEGIN] Processing Emails
+10/7/2013 1:13:51 PM  [FATAL] Could not load type 'ExchangeUtil.ResilientUtils.Resilient_UtilsService' from assembly 'ExchangeUtil, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializerContract.CanSerialize(Type type)
+   at System.Xml.Serialization.TempAssembly.LoadGeneratedAssembly(Type type, String defaultNamespace, XmlSerializerImplementation& contract)
+   at System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   at System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   at ExchangeUtil.SfPartner.SforceService..ctor() in C:\exchange-util\ExchangeUtil\Web References\SfPartner\Reference.cs:line 129
+   at ExchangeUtil.SfLogin..ctor() in C:\exchange-util\ExchangeUtil\SfLogin.cs:line 15
+   at ExchangeUtil.EspressoRegexUtils.regex_init() in C:\exchange-util\ExchangeUtil\EspressoRegexUtils.cs:line 23
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 34
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+10/7/2013 1:13:51 PM  [END] Finished Processing Emails
+10/7/2013 1:14:49 PM  [BEGIN] Processing Emails
+10/7/2013 1:14:49 PM  [FATAL] Could not load type 'ExchangeUtil.ResilientUtils.Resilient_UtilsService' from assembly 'ExchangeUtil, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializerContract.CanSerialize(Type type)
+   at System.Xml.Serialization.TempAssembly.LoadGeneratedAssembly(Type type, String defaultNamespace, XmlSerializerImplementation& contract)
+   at System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   at System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   at ExchangeUtil.SfPartner.SforceService..ctor() in C:\exchange-util\ExchangeUtil\Web References\SfPartner\Reference.cs:line 129
+   at ExchangeUtil.SfLogin..ctor() in C:\exchange-util\ExchangeUtil\SfLogin.cs:line 15
+   at ExchangeUtil.EspressoRegexUtils.regex_init() in C:\exchange-util\ExchangeUtil\EspressoRegexUtils.cs:line 23
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 34
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+10/7/2013 1:14:49 PM  [END] Finished Processing Emails
+10/7/2013 1:15:25 PM  [BEGIN] Processing Emails
+10/7/2013 1:15:25 PM  [FATAL] Could not load type 'ExchangeUtil.ResilientUtils.Resilient_UtilsService' from assembly 'ExchangeUtil, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializerContract.CanSerialize(Type type)
+   at System.Xml.Serialization.TempAssembly.LoadGeneratedAssembly(Type type, String defaultNamespace, XmlSerializerImplementation& contract)
+   at System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   at System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   at ExchangeUtil.SfPartner.SforceService..ctor() in C:\exchange-util\ExchangeUtil\Web References\SfPartner\Reference.cs:line 129
+   at ExchangeUtil.SfLogin..ctor() in C:\exchange-util\ExchangeUtil\SfLogin.cs:line 15
+   at ExchangeUtil.EspressoRegexUtils.regex_init() in C:\exchange-util\ExchangeUtil\EspressoRegexUtils.cs:line 23
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 34
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+10/7/2013 1:15:25 PM  [END] Finished Processing Emails
+10/7/2013 1:16:25 PM  [BEGIN] Processing Emails
+10/7/2013 1:16:26 PM  [FATAL] Could not load type 'ExchangeUtil.ResilientUtils.Resilient_UtilsService' from assembly 'ExchangeUtil, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializerContract.CanSerialize(Type type)
+   at System.Xml.Serialization.TempAssembly.LoadGeneratedAssembly(Type type, String defaultNamespace, XmlSerializerImplementation& contract)
+   at System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   at System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   at ExchangeUtil.SfPartner.SforceService..ctor() in C:\exchange-util\ExchangeUtil\Web References\SfPartner\Reference.cs:line 129
+   at ExchangeUtil.SfLogin..ctor() in C:\exchange-util\ExchangeUtil\SfLogin.cs:line 15
+   at ExchangeUtil.EspressoRegexUtils.regex_init() in C:\exchange-util\ExchangeUtil\EspressoRegexUtils.cs:line 23
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 34
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+10/7/2013 1:16:26 PM  [END] Finished Processing Emails
+10/9/2013 2:52:38 PM  [BEGIN] Processing Emails
+10/9/2013 2:52:56 PM  [END] Finished Processing Emails
+10/9/2013 2:53:13 PM  [BEGIN] Processing Emails
+10/9/2013 2:53:29 PM  [INFO] Processing email D.Menniss@Resilientplc.com/Order number 1 testing
+10/9/2013 2:53:30 PM  [INFO] There are 1 attachment(s)
+10/9/2013 2:53:32 PM  [SUCCESS] 006D000000TpRUFIA3
+10/9/2013 2:53:33 PM  [END] Finished Processing Emails
+10/9/2013 2:54:33 PM  [BEGIN] Processing Emails
+10/9/2013 2:54:42 PM  [END] Finished Processing Emails
+10/9/2013 3:24:16 PM  [BEGIN] Processing Emails
+10/9/2013 3:24:16 PM  [FATAL] Could not load type 'ExchangeUtil.ResilientUtils.Resilient_UtilsService' from assembly 'ExchangeUtil, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializerContract.CanSerialize(Type type)
+   at System.Xml.Serialization.TempAssembly.LoadGeneratedAssembly(Type type, String defaultNamespace, XmlSerializerImplementation& contract)
+   at System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   at System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   at ExchangeUtil.SfPartner.SforceService..ctor() in C:\exchange-util\ExchangeUtil\Web References\SfPartner\Reference.cs:line 129
+   at ExchangeUtil.SfLogin..ctor() in C:\exchange-util\ExchangeUtil\SfLogin.cs:line 15
+   at ExchangeUtil.EspressoRegexUtils.regex_init() in C:\exchange-util\ExchangeUtil\EspressoRegexUtils.cs:line 23
+   at ExchangeUtil.ExchangeIntegration.checkEmails() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 34
+   at ExchangeUtil.ExchangeIntegration.run() in C:\exchange-util\ExchangeUtil\ExchangeIntegration.cs:line 18
+10/9/2013 3:24:16 PM  [END] Finished Processing Emails

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Web Services API : Resilient_Utils
+-->
+<definitions targetNamespace="http://soap.sforce.com/schemas/class/Resilient_Utils" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://soap.sforce.com/schemas/class/Resilient_Utils">
+  <types>
+    <xsd:schema elementFormDefault="qualified" targetNamespace="http://soap.sforce.com/schemas/class/Resilient_Utils">
+      <xsd:element name="DebuggingInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="debugLog" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:simpleType name="ID">
+        <xsd:restriction base="xsd:string">
+          <xsd:length value="18"/>
+          <xsd:pattern value="[a-zA-Z0-9]{18}"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="LogCategory">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Db"/>
+          <xsd:enumeration value="Workflow"/>
+          <xsd:enumeration value="Validation"/>
+          <xsd:enumeration value="Callout"/>
+          <xsd:enumeration value="Apex_code"/>
+          <xsd:enumeration value="Apex_profiling"/>
+          <xsd:enumeration value="Visualforce"/>
+          <xsd:enumeration value="System"/>
+          <xsd:enumeration value="All"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="LogCategoryLevel">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Internal"/>
+          <xsd:enumeration value="Finest"/>
+          <xsd:enumeration value="Finer"/>
+          <xsd:enumeration value="Fine"/>
+          <xsd:enumeration value="Debug"/>
+          <xsd:enumeration value="Info"/>
+          <xsd:enumeration value="Warn"/>
+          <xsd:enumeration value="Error"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="LogInfo">
+        <xsd:sequence>
+          <xsd:element name="category" type="tns:LogCategory"/>
+          <xsd:element name="level" type="tns:LogCategoryLevel"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="LogType">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="None"/>
+          <xsd:enumeration value="Debugonly"/>
+          <xsd:enumeration value="Db"/>
+          <xsd:enumeration value="Profiling"/>
+          <xsd:enumeration value="Callout"/>
+          <xsd:enumeration value="Detail"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:element name="DebuggingHeader">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="categories" minOccurs="0" maxOccurs="unbounded" type="tns:LogInfo"/>
+            <xsd:element name="debugLevel" type="tns:LogType"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="CallOptions">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="client" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SessionHeader">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="sessionId" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="AllowFieldTruncationHeader">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="allowFieldTruncation" type="xsd:boolean"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getExprs">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getExprsResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="result" type="xsd:string" nillable="true"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="processEmail">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="emailAddress" type="xsd:string" nillable="true"/>
+            <xsd:element name="folderName" type="xsd:string" nillable="true"/>
+            <xsd:element name="matchesXML" type="xsd:string" nillable="true"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="processEmailResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="result" type="xsd:string" nillable="true"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </types>
+  <!-- Message for the header parts -->
+  <message name="Header">
+    <part name="AllowFieldTruncationHeader" element="tns:AllowFieldTruncationHeader"/>
+    <part name="CallOptions" element="tns:CallOptions"/>
+    <part name="DebuggingHeader" element="tns:DebuggingHeader"/>
+    <part name="DebuggingInfo" element="tns:DebuggingInfo"/>
+    <part name="SessionHeader" element="tns:SessionHeader"/>
+  </message>
+  <!-- Operation Messages -->
+  <message name="getExprsRequest">
+    <part element="tns:getExprs" name="parameters"/>
+  </message>
+  <message name="getExprsResponse">
+    <part element="tns:getExprsResponse" name="parameters"/>
+  </message>
+  <message name="processEmailRequest">
+    <part element="tns:processEmail" name="parameters"/>
+  </message>
+  <message name="processEmailResponse">
+    <part element="tns:processEmailResponse" name="parameters"/>
+  </message>
+  <portType name="Resilient_UtilsPortType">
+    <operation name="getExprs">
+      <input message="tns:getExprsRequest"/>
+      <output message="tns:getExprsResponse"/>
+    </operation>
+    <operation name="processEmail">
+      <input message="tns:processEmailRequest"/>
+      <output message="tns:processEmailResponse"/>
+    </operation>
+  </portType>
+  <binding name="Resilient_UtilsBinding" type="tns:Resilient_UtilsPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="getExprs">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:header use="literal" part="SessionHeader" message="tns:Header"/>
+        <soap:header use="literal" part="CallOptions" message="tns:Header"/>
+        <soap:header use="literal" part="DebuggingHeader" message="tns:Header"/>
+        <soap:header use="literal" part="AllowFieldTruncationHeader" message="tns:Header"/>
+        <soap:body use="literal" parts="parameters"/>
+      </input>
+      <output>
+        <soap:header use="literal" part="DebuggingInfo" message="tns:Header"/>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="processEmail">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:header use="literal" part="SessionHeader" message="tns:Header"/>
+        <soap:header use="literal" part="CallOptions" message="tns:Header"/>
+        <soap:header use="literal" part="DebuggingHeader" message="tns:Header"/>
+        <soap:header use="literal" part="AllowFieldTruncationHeader" message="tns:Header"/>
+        <soap:body use="literal" parts="parameters"/>
+      </input>
+      <output>
+        <soap:header use="literal" part="DebuggingInfo" message="tns:Header"/>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="Resilient_UtilsService">
+    <documentation></documentation>
+    <port binding="tns:Resilient_UtilsBinding" name="Resilient_Utils">
+      <soap:address location="https://cs8-api.salesforce.com/services/Soap/class/Resilient_Utils"/>
+    </port>
+  </service>
+</definitions>

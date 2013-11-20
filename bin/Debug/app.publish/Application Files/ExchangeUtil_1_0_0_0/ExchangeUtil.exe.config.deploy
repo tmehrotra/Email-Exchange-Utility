@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="ExchangeUtil.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <applicationSettings>
+        <ExchangeUtil.Properties.Settings>
+            <setting name="SF_UN" serializeAs="String">
+                <value>makepositive@resilientplc.com.espresso</value>
+            </setting>
+            <setting name="ExchangeUtil_ResilientUtils_ResilientUtilsService"
+                serializeAs="String">
+                <value>https://cs7-api.salesforce.com/services/Soap/class/Resilient_Utils</value>
+            </setting>
+            <setting name="ExchangeUtil_SfPartner_SforceService" serializeAs="String">
+                <value>https://test.salesforce.com/services/Soap/u/20.0</value>
+            </setting>
+            <setting name="SF_PW" serializeAs="String">
+                <value>PRODres2</value>
+            </setting>
+            <setting name="SF_TKN" serializeAs="String">
+                <value>rGc8BlEB4hJoiKyFxkLzokRN</value>
+            </setting>
+            <setting name="EX_UN" serializeAs="String">
+                <value>makepositive</value>
+            </setting>
+            <setting name="EX_PW" serializeAs="String">
+                <value>P0s1t1v3</value>
+            </setting>
+            <setting name="EX_URI" serializeAs="Xml">
+                <value>
+                    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <string>https://webmail.resilientplc.com/ews/exchange.asmx</string>
+                    </ArrayOfString>
+                </value>
+            </setting>
+            <setting name="EX_DOM" serializeAs="String">
+                <value>resilientplc</value>
+            </setting>
+            <setting name="WAIT_MS" serializeAs="String">
+                <value>60000</value>
+            </setting>
+        </ExchangeUtil.Properties.Settings>
+    </applicationSettings>
+</configuration>
